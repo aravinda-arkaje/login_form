@@ -12,7 +12,8 @@ class Register_success extends CI_Controller {
 	{	
 		$this->load->view('/register_success');
 	}
-
+	
+	//this controller function is for login 
 	function successfull()
 	{
 		$username=$this->input->post('email');
